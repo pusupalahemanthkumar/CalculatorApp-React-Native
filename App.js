@@ -1,6 +1,8 @@
+// Importing Required Files And Packages Here.
 import React, { Component } from "react";
 import { StyleSheet, Text, View, TextInput, Button } from "react-native";
 
+// Defining App Component Here.
 export default class App extends Component {
   state = {
     currentResult: 0,
@@ -8,6 +10,7 @@ export default class App extends Component {
     enterdInput: "0",
     calDescription: "",
   };
+  // Utility Methods
   add = () => {
     const result = this.state.currentResult + +this.state.enterdInput;
     const calDescription = `${this.state.currentResult} + ${this.state.enterdInput}`;
@@ -89,7 +92,7 @@ export default class App extends Component {
     );
   }
 }
-
+// Defining Styles Here.
 const styles = StyleSheet.create({
   Screen: {
     padding: 30,

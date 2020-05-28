@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   Controls: {
-    marginTop: 50,
+    marginTop:40,
     marginBottom: 30,
     flexDirection: "row",
     justifyContent: "space-between",
@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#f4f4f4",
     borderColor: "#ccc",
     borderWidth: 1,
-    borderRadius: 80,
+    borderRadius: 70,
     padding: 40,
     flexDirection: "column",
     justifyContent: "center",
